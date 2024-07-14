@@ -1,0 +1,37 @@
+.note-card {
+    background-color: #fffbf0;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .note-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .note-card h2 {
+    margin: 0 0 10px;
+    color: #d6336c;
+  }
+  
+  .note-card p {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .note-card button {
+    background-color: #d6336c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .note-card button:hover {
+    background-color: #c0275a;
+  }
+  
